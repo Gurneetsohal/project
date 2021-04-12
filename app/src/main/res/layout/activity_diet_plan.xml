@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietPlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diet_plan432"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6:30 AM--Cucumber Detox Water(1glass)\n\n 8:00 AM--Oats Porridge in Skimmed Milk(1 bowl) and Mixed Nuts(25 grams)\n\n 12:00 PM-- Skimmed Milk Paneer(100 grams)\n\n 2:00 PM-- Mixed Vegetable Salad(1 katori)\n\n 2:10-- PM Dal(1 katori)Gajar Matar Sabzi(1 katori) and Roti (1 roti/chapati)\n\n 4:00 PM-- Cut Fruits(1 cup) and Buttermilk(1 glass)\n\n 5:30 PM-- Tea with Less Sugar and Milk(1 teacup)\n\n 8:50 PM-- Mixed Vegetable Salad(1 katori)\n\n 9:00 PM-- Dal(1 katori) and Lauki Sabzi(1 katori) and Roti (1 roti/chapati)\n\n"
+        android:textColor="@android:color/background_dark"
+        android:textSize="19sp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutPlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/workout_plan386"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 1:Chest, Back, Shoulders, Legs, Biceps, Triceps\n\nChest – Barbell Bench Press – 4 sets of 8 reps\nBack – Lat-pulldowns – 4 sets of 10 reps\nShoulders – Seated Dumbbell Press – 4 sets of 10 reps\nLegs – Leg Extensions – 4 sets of 10 reps\nBiceps – Barbell Bicep Curls – 3 sets of 10 reps\nTriceps – Triceps Rope Pushdowns – 3 sets of 15 reps\n\n\nDay 2:Legs, Triceps, Biceps, Chest, Back, Shoulder\n\nLegs – Leg Press Machine – 4 sets of 8 reps\nTriceps – Overhead Bar Extensions – 3 sets of 20 reps\nBiceps – EZ Bar Curls – 4 sets of 10 reps\nChest – Machine Chest Press – 4 sets of 10 reps\nBack – T-Bar Row – 4 sets of 10 reps\nShoulders – Lateral Raises – 3 sets of 20 reps\n\n\nDay 3: Shoulders, Back, Chest, Legs, Triceps, Biceps\n\nShoulders – EZ Bar Upright Rows – 3 sets of 15 reps\nBack – Close-Grip Pulldowns – 4 sets of 12 reps\nChest – Cable Fly – 4 sets of 10 reps\nLegs – Lunges – 3 sets of 10 reps per leg\nTriceps – Skullcrushers – 3 sets of 15 reps\nBiceps – Hammer Curls – 3 sets of 12 reps\n\n\n Repeat this the next 3 days of the week.\n\n\n\n"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
